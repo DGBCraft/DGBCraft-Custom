@@ -1,7 +1,10 @@
 # **DGBCraft - Custom**
- Datapack and Scarpet script for DGBCraft Survival World
+Datapack and Scarpet script for DGBCraft Survival World
 
- Carpet features and Scarpet scripts is **required** [Carpet Mod](https://github.com/gnembon/fabric-carpet/releases)
+Carpet features and Scarpet scripts is **required** [Carpet Mod](https://github.com/gnembon/fabric-carpet/releases)
+### **How to Install**
+Put `datapacks` `scripts` folder and `carpet.conf` to world directory.
+
 ## **Datapack**
 - ### **Classic Achievements**
     - Diamonds to You!
