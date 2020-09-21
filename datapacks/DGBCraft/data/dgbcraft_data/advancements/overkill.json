@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "text": "赶尽杀绝"
+    },
+    "description": [
+      {
+        "text": "在一击内造成9颗心的伤害\n"
+      },
+      {
+          "text": "经典成就",
+          "color": "#7f7f7f",
+          "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "taken": {
+            "min": 18
+          }
+        }
+      }
+    }
+  }
+}

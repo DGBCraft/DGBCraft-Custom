@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"pack_format": 6,
+		"description": [
+			{
+				"text": "Scoreboard and Recipes\n",
+				"color": "white"
+			},
+			{
+				"text": "For DGBCraft ",
+				"color": "gold",
+				"italic": true
+			},
+			{
+				"text": "By 36li",
+				"color": "aqua",
+				"italic": true
+			}
+		]
+	}
+}

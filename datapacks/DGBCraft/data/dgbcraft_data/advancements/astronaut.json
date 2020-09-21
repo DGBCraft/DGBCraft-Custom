@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:end/elytra",
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "title": "我上天了",
+        "description": [
+            {
+                "text": "mgj你人呢？\n"
+            },
+            {
+                "text": "(100km)",
+                "color": "#7f7f7f",
+                "italic": true
+            }
+        ],
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fly_high": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "y": {
+                        "min": 100000
+                    }
+                }
+            }
+        }
+    }
+}

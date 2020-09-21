@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": {
+      "text": "给你钻石！"
+    },
+    "description": [
+      {
+        "text": "向另一名玩家投掷钻石\n"
+      },
+      {
+          "text": "经典成就",
+          "color": "#7f7f7f",
+          "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamonds_to_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:diamond"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:player"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}
